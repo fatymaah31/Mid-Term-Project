@@ -13,6 +13,7 @@ public class AddStudent {
      private String name;
      private String id;
      private String section;
+     private String session;
 
     /**
      * @return the name
@@ -54,5 +55,19 @@ public class AddStudent {
      */
     public void setSection(String section) {
         this.section = section;
+    }
+
+    /**
+     * @return the session
+     */
+    public String getSession() {
+        return session;
+    }
+
+    /**
+     * @param session the session to set
+     */
+    public void setSession(String session) {
+        this.session = session;
     }
 }
