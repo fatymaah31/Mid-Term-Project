@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package rubric;
-
+import static javax.swing.UIManager.get;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -831,6 +831,11 @@ public class Submenu extends javax.swing.JFrame {
         });
 
         jButton7.setText("Edit");
+        jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton7MouseClicked(evt);
+            }
+        });
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
@@ -838,6 +843,11 @@ public class Submenu extends javax.swing.JFrame {
         });
 
         jButton8.setText("Delete");
+        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton8MouseClicked(evt);
+            }
+        });
 
         jButton9.setText("View");
 
@@ -852,6 +862,11 @@ public class Submenu extends javax.swing.JFrame {
                 "Student Name", "Student ID", "Section", "Session"
             }
         ));
+        StudentTable.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                StudentTableMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(StudentTable);
 
         jLabel28.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -1133,6 +1148,113 @@ public class Submenu extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_jButton1MouseClicked
+
+    private void StudentTableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_StudentTableMouseClicked
+        // TODO add your handling code here:
+        
+        ver= StudentTable.getColumnCount();
+        hor= StudentTable.getSelectedRow();
+       names.setText(stdt.getValueAt(hor, 0).toString());
+        id.setText(stdt.getValueAt(hor, 1).toString());
+        //section.setText(stdt.getValueAt(hor, 2).toString());
+        //session.setText(stdt.getValueAt(hor, 3).toString());
+       
+    }//GEN-LAST:event_StudentTableMouseClicked
+
+    private void jButton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseClicked
+        // TODO add your handling code here:
+        data.deleteStudent(hor);
+        stdt.setRowCount(0);
+            for(int i=0; i<data.student.size(); i++)
+            {
+            Object[] view = {data.student.get(i).getName(),data.student.get(i).getId(), data.student.get(i).getSection(), data.student.get(i).getSession()};
+            stdt.addRow(view);
+            }
+        
+    }//GEN-LAST:event_jButton8MouseClicked
+
+    private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
+        // TODO add your handling code here:
+        
+        std = new AddStudent();
+        
+        
+        String ustdName= names.getText();
+        String ustdId= id.getText();
+        String ustdSec;
+        ustdSec = section.getSelectedItem().toString();
+        String ustdSess;
+        ustdSess = session.getSelectedItem().toString();
+        int length =ustdName.length();
+        
+        char[] arr=new char[length];
+        arr=ustdName.toCharArray();
+        int count =0;
+        for(int i=0; i<length; i++)
+        {
+       if((arr[i]>='A' && arr[i]<='Z') || (arr[i]>='a' && arr[i]<='z') || arr[i]==' ' )
+           {
+               
+              count= count+1;
+        
+           }
+         }
+        
+        int len = ustdId.length();
+        char[] array=new char[len];
+        array=ustdId.toCharArray();
+        int x=0;
+        if(len == 11 )
+        {
+            if(array[0]== '2' && array [1] == '0')
+            {
+               x++;
+            }
+            if(array[2]>= '0' && array [2] <= '9' && array[3]>= '0' && array [3] <= '9' )
+            {
+               x++;
+            }
+            if(array[4]== '-' && array [7] == '-' )
+            {
+               x++;
+            }
+            if(array[5]== 'C' || array[5]== 'c' && array [6] == 'S' || array [6] == 's' )
+            {
+               x++;
+            }
+            for(int i=8; i<=10; i++)
+            {
+              if(array[i]>= '0' && array [i] <= '9')
+              {
+                x++;
+              }
+            }
+        
+        }
+     
+        if (count == length && x == 7)
+        { 
+           std.setName(ustdName);
+           std.setId(ustdId);
+           std.setSection(ustdSec);
+           std.setSession(ustdSess); 
+           data.updateStudent(std, hor);
+           stdt.setRowCount(0);
+            for(int i=0; i<data.student.size(); i++)
+            {
+            Object[] view = {data.student.get(i).getName(),data.student.get(i).getId(), data.student.get(i).getSection(), data.student.get(i).getSession()};
+            stdt.addRow(view);
+            }
+           
+           
+           JOptionPane.showMessageDialog(this,"Edited");
+        }
+        else
+        {
+           JOptionPane.showMessageDialog(this,"Wrong Credentials");
+        }
+        
+    }//GEN-LAST:event_jButton7MouseClicked
 
     /**
      * @param args the command line arguments

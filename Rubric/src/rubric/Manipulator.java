@@ -37,6 +37,18 @@ public class Manipulator {
      {
          student.add(a);
      }
+     
+     
+     public void updateStudent(AddStudent c, int rowcheck)
+   {
+       student.set(rowcheck,c);
+       
+   }
+     
+     public void deleteStudent(int rowcheck)
+     {
+         student.remove(rowcheck);
+     }
     
 }
 
