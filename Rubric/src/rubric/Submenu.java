@@ -125,7 +125,6 @@ public class Submenu extends javax.swing.JFrame {
         jSeparator4 = new javax.swing.JSeparator();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         StudentTable = new javax.swing.JTable();
         jLabel28 = new javax.swing.JLabel();
@@ -848,8 +847,11 @@ public class Submenu extends javax.swing.JFrame {
                 jButton8MouseClicked(evt);
             }
         });
-
-        jButton9.setText("View");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
         StudentTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -865,6 +867,11 @@ public class Submenu extends javax.swing.JFrame {
         StudentTable.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 StudentTableMouseClicked(evt);
+            }
+        });
+        StudentTable.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                StudentTableKeyReleased(evt);
             }
         });
         jScrollPane1.setViewportView(StudentTable);
@@ -883,7 +890,7 @@ public class Submenu extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
@@ -916,16 +923,14 @@ public class Submenu extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 807, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+            .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(26, 26, 26)
-                .addComponent(jButton7)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton8)
-                .addGap(29, 29, 29)
-                .addComponent(jButton9)
-                .addGap(277, 277, 277))
+                .addGap(339, 339, 339))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -958,7 +963,6 @@ public class Submenu extends javax.swing.JFrame {
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton9)
                     .addComponent(jButton8)
                     .addComponent(jButton7)
                     .addComponent(jButton1))
@@ -1140,7 +1144,7 @@ public class Submenu extends javax.swing.JFrame {
             }
            
            
-           JOptionPane.showMessageDialog(this,"Added");
+           JOptionPane.showMessageDialog(this,"Added");  
         }
         else
         {
@@ -1156,8 +1160,8 @@ public class Submenu extends javax.swing.JFrame {
         hor= StudentTable.getSelectedRow();
        names.setText(stdt.getValueAt(hor, 0).toString());
         id.setText(stdt.getValueAt(hor, 1).toString());
-        //section.setText(stdt.getValueAt(hor, 2).toString());
-        //session.setText(stdt.getValueAt(hor, 3).toString());
+        section.setSelectedItem(stdt.getValueAt(hor, 2).toString());
+        session.setText(stdt.getValueAt(hor, 3).toString());
        
     }//GEN-LAST:event_StudentTableMouseClicked
 
@@ -1256,6 +1260,14 @@ public class Submenu extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton7MouseClicked
 
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void StudentTableKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_StudentTableKeyReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_StudentTableKeyReleased
+
     /**
      * @param args the command line arguments
      */
@@ -1302,7 +1314,6 @@ public class Submenu extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
