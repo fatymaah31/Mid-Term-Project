@@ -5,10 +5,19 @@
  */
 package rubric;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author fatym
  */
 public class ManipulateCLO {
+     public List<CLOs> CLO = new ArrayList<CLOs>();
+     
+     public void addclo(CLOs c)
+     {
+         CLO.add(c);
+     }
     
 }
