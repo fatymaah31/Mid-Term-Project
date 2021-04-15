@@ -12,19 +12,19 @@ import java.util.ArrayList;
  *
  * @author fatym
  */
-public class Manipulator {
+public class ManipulateStudents {
     
-    static Manipulator data= new Manipulator();
-    static Manipulator  event;
+    static ManipulateStudents data= new ManipulateStudents();
+    static ManipulateStudents  event;
     public List<AddStudent>student= new ArrayList<>();
-    private Manipulator()
+    private ManipulateStudents()
     {
         student= new ArrayList<AddStudent>();
     }
-     public static Manipulator getEvent(){
+     public static ManipulateStudents getEvent(){
         if(event==null)
         {
-            event = new Manipulator();
+            event = new ManipulateStudents();
         }
         
         return event;
