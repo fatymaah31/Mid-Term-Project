@@ -951,6 +951,11 @@ public class Submenu extends javax.swing.JFrame {
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "C.M" }));
 
         jButton3.setText("SET RUBRIX");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ass No" }));
 
@@ -1508,6 +1513,13 @@ public class Submenu extends javax.swing.JFrame {
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        Rubrics r = new Rubrics();
+        
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
