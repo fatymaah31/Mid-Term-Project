@@ -15,6 +15,7 @@ public class Submenu extends javax.swing.JFrame {
     ManipulateStudents data= ManipulateStudents.getEvent();
     ManipulateCLO c=new ManipulateCLO();
     ManipulateRubrics mr= new ManipulateRubrics();
+    ManipulateEvaluation me=new ManipulateEvaluation();
     AddStudent std = new AddStudent();
     boolean checkCLO=true;
 
@@ -1265,6 +1266,11 @@ public class Submenu extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
     // TODO add your handling code here:
+    EvaluatingStudents e=new EvaluatingStudents();
+    Double level1;
+    Double level2;
+    Double level3;
+    Double level4;
     String M1=m1.getSelectedItem().toString();
     Double mm1=Double.parseDouble(M1);
         
@@ -1290,7 +1296,20 @@ public class Submenu extends javax.swing.JFrame {
             Double mmm3=Double.parseDouble(mr.Rubriclist.get(i).Rubric3.get(0));
             Double mmm4=Double.parseDouble(mr.Rubriclist.get(i).Rubric4.get(0));
             
+            level1=(mm1/3)*mmm1;
+            level2=(mm2/3)*mmm2;
+            level3=(mm3/3)*mmm3;
+            level4=(mm4/3)*mmm4;
             
+            e.setAsseno(assno);
+            e.setClosno(clono);
+            e.setRegno(Rno);
+            e.evaluationMarks.add(level1);
+            e.evaluationMarks.add(level2);
+            e.evaluationMarks.add(level3);
+            e.evaluationMarks.add(level4);
+            
+            me.addmarks(e);
             
             
             
