@@ -1,0 +1,7 @@
+Ahmad Shoaib,2020-CS-130,A,Fall 2020
+Fatima Batool,2020-CS-007,A,Fall 2020
+Khadija,2020-CS-126,C,Fall 2020
+Ahmad Arshad,2020-CS-120,C,Fall 2020
+Amna Khalid,2020-CS-057,B,Fall 2020
+Aqsa Riaz,2020-CS-111,C,Fall 2020
+Bilal Yousaf,2020-CS-042,A,Fall 2020

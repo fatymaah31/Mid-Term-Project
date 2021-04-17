@@ -18,6 +18,12 @@ public class Rubric {
         // TODO code application logic here
         Mainmenu Frame1 = new Mainmenu();
         Frame1.setVisible(true);
+        
+        ManipulateStudents a= ManipulateStudents.getEvent();
+        a.loadStudentData();
+        
+         
+        
     }
     
 }

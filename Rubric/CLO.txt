@@ -1,0 +1,5 @@
+Object Oriented Programming,CS-162,1,Description,PLO 1
+Object Oriented Programming,CS-162,2,Description,PLO 1
+Object Oriented Programming,CS-162,3,Description,PLO 2
+Object Oriented Programming,CS-162,4,Description,PLO 3
+Object Oriented Programming,CS-162,5,Description,PLO 3
