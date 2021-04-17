@@ -1374,9 +1374,9 @@
                                   <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
                                   <Component id="jLabel16" min="-2" pref="185" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jComboBox13" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <Component id="assno" min="-2" pref="74" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jComboBox8" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <Component id="clono" min="-2" pref="67" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
@@ -1395,53 +1395,53 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="jTextField15" min="-2" pref="86" max="-2" attributes="0"/>
+                                                  <Component id="l10" min="-2" pref="86" max="-2" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jTextField16" max="32767" attributes="0"/>
+                                                  <Component id="l11" max="32767" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jTextField17" min="-2" pref="89" max="-2" attributes="0"/>
+                                                  <Component id="l12" min="-2" pref="89" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="jTextField7" min="-2" pref="92" max="-2" attributes="0"/>
+                                                  <Component id="l7" min="-2" pref="92" max="-2" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jTextField13" min="-2" pref="81" max="-2" attributes="0"/>
+                                                  <Component id="l8" min="-2" pref="81" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="jTextField14" max="32767" attributes="0"/>
+                                                  <Component id="l9" max="32767" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="jTextField4" min="-2" pref="93" max="-2" attributes="0"/>
+                                                  <Component id="l4" min="-2" pref="93" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="jTextField5" min="-2" pref="86" max="-2" attributes="0"/>
+                                                  <Component id="l5" min="-2" pref="86" max="-2" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jTextField6" max="32767" attributes="0"/>
+                                                  <Component id="l6" max="32767" attributes="0"/>
                                               </Group>
-                                              <Component id="jTextField8" max="32767" attributes="0"/>
-                                              <Component id="jTextField10" max="32767" attributes="0"/>
+                                              <Component id="d2" max="32767" attributes="0"/>
+                                              <Component id="d4" max="32767" attributes="0"/>
                                               <Group type="102" alignment="1" attributes="0">
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                  <Component id="jTextField9" min="-2" pref="287" max="-2" attributes="0"/>
+                                                  <Component id="d3" min="-2" pref="287" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jComboBox10" min="-2" pref="104" max="-2" attributes="0"/>
-                                              <Component id="jComboBox12" min="-2" pref="99" max="-2" attributes="0"/>
-                                              <Component id="jComboBox11" min="-2" pref="104" max="-2" attributes="0"/>
+                                              <Component id="cm2" min="-2" pref="104" max="-2" attributes="0"/>
+                                              <Component id="cm4" min="-2" pref="99" max="-2" attributes="0"/>
+                                              <Component id="cm3" min="-2" pref="104" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <Component id="jTextField1" min="-2" pref="87" max="-2" attributes="0"/>
+                                                  <Component id="l1" min="-2" pref="87" max="-2" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jTextField2" min="-2" pref="85" max="-2" attributes="0"/>
+                                                  <Component id="l2" min="-2" pref="85" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="jTextField3" min="-2" pref="83" max="-2" attributes="0"/>
+                                                  <Component id="l3" min="-2" pref="83" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="jTextField11" min="-2" pref="287" max="-2" attributes="0"/>
+                                                  <Component id="d1" min="-2" pref="287" max="-2" attributes="0"/>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jComboBox9" min="-2" pref="110" max="-2" attributes="0"/>
+                                                  <Component id="cm1" min="-2" pref="110" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -1470,62 +1470,61 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel19" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                      <Component id="jTextField11" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                                      <Component id="jComboBox9" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="d1" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="cm1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jComboBox8" alignment="3" max="32767" attributes="0"/>
-                                      <Component id="jComboBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clono" alignment="3" max="32767" attributes="0"/>
+                                      <Component id="assno" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="jTextField3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                              <Component id="jTextField2" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="l1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="l3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="l2" min="-2" pref="25" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField8" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="jComboBox10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="d2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="cm2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                               <Component id="jLabel15" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jTextField4" min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="l4" min="-2" pref="29" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jTextField6" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Component id="jTextField5" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="l6" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="l5" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel17" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="jTextField9" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="jComboBox11" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="d3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="cm3" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jTextField13" max="32767" attributes="0"/>
-                              <Component id="jTextField14" pref="27" max="32767" attributes="0"/>
-                              <Component id="jTextField7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="l8" max="32767" attributes="0"/>
+                              <Component id="l9" pref="27" max="32767" attributes="0"/>
+                              <Component id="l7" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField10" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                              <Component id="d4" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                               <Component id="jLabel18" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="jComboBox12" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="cm4" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTextField17" min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="l12" min="-2" pref="31" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="jTextField16" alignment="0" pref="30" max="32767" attributes="0"/>
-                                  <Component id="jTextField15" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="l11" alignment="0" pref="30" max="32767" attributes="0"/>
+                                  <Component id="l10" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace type="separate" max="32767" attributes="0"/>
@@ -1594,7 +1593,7 @@
                     <Property name="text" type="java.lang.String" value="Rubric 2 Description:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox8">
+                <Component class="javax.swing.JComboBox" name="clono">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
@@ -1607,7 +1606,7 @@
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox8ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clonoActionPerformed"/>
                   </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1657,22 +1656,25 @@
                     <Property name="text" type="java.lang.String" value="Rubric 1 Description:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField8">
+                <Component class="javax.swing.JTextField" name="d2">
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField8ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d2ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField9">
+                <Component class="javax.swing.JTextField" name="d3">
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField10">
+                <Component class="javax.swing.JTextField" name="d4">
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField11">
+                <Component class="javax.swing.JTextField" name="d1">
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox9">
+                <Component class="javax.swing.JComboBox" name="cm1">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="1">
-                        <StringItem index="0" value="C.M"/>
+                      <StringArray count="4">
+                        <StringItem index="0" value="10%"/>
+                        <StringItem index="1" value="20%"/>
+                        <StringItem index="2" value="30%"/>
+                        <StringItem index="3" value="40%"/>
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1680,11 +1682,14 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox10">
+                <Component class="javax.swing.JComboBox" name="cm2">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="1">
-                        <StringItem index="0" value="C.M"/>
+                      <StringArray count="4">
+                        <StringItem index="0" value="10%"/>
+                        <StringItem index="1" value="20%"/>
+                        <StringItem index="2" value="30%"/>
+                        <StringItem index="3" value="40%"/>
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1692,11 +1697,14 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox11">
+                <Component class="javax.swing.JComboBox" name="cm3">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="1">
-                        <StringItem index="0" value="C.M"/>
+                      <StringArray count="4">
+                        <StringItem index="0" value="10%"/>
+                        <StringItem index="1" value="20%"/>
+                        <StringItem index="2" value="30%"/>
+                        <StringItem index="3" value="40%"/>
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1704,11 +1712,14 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox12">
+                <Component class="javax.swing.JComboBox" name="cm4">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="1">
-                        <StringItem index="0" value="C.M"/>
+                      <StringArray count="4">
+                        <StringItem index="0" value="10%"/>
+                        <StringItem index="1" value="20%"/>
+                        <StringItem index="2" value="30%"/>
+                        <StringItem index="3" value="40%"/>
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1724,11 +1735,12 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JComboBox" name="jComboBox13">
+                <Component class="javax.swing.JComboBox" name="assno">
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                      <StringArray count="1">
-                        <StringItem index="0" value="Ass No"/>
+                      <StringArray count="2">
+                        <StringItem index="0" value="Ass1"/>
+                        <StringItem index="1" value="Ass2"/>
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1736,7 +1748,7 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField1">
+                <Component class="javax.swing.JTextField" name="l1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1744,7 +1756,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 1 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField2">
+                <Component class="javax.swing.JTextField" name="l2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1752,7 +1764,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 2 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField3">
+                <Component class="javax.swing.JTextField" name="l3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1760,10 +1772,10 @@
                     <Property name="text" type="java.lang.String" value="Lvl 3 Desciption"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="l3ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField4">
+                <Component class="javax.swing.JTextField" name="l4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1771,7 +1783,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 1 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField5">
+                <Component class="javax.swing.JTextField" name="l5">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1779,7 +1791,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 2 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField6">
+                <Component class="javax.swing.JTextField" name="l6">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1787,7 +1799,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 3 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField7">
+                <Component class="javax.swing.JTextField" name="l7">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1795,7 +1807,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 1 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField13">
+                <Component class="javax.swing.JTextField" name="l8">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1803,7 +1815,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 2 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField14">
+                <Component class="javax.swing.JTextField" name="l9">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1811,7 +1823,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 3 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField15">
+                <Component class="javax.swing.JTextField" name="l10">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1819,7 +1831,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 1 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField16">
+                <Component class="javax.swing.JTextField" name="l11">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
@@ -1827,7 +1839,7 @@
                     <Property name="text" type="java.lang.String" value="Lvl 2 Desciption"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField17">
+                <Component class="javax.swing.JTextField" name="l12">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dialog" size="10" style="0"/>
