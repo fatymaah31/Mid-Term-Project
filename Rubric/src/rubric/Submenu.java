@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package rubric;
-import static javax.swing.UIManager.get;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
